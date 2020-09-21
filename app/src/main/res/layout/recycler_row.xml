@@ -3,16 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#CDEEF3"
+    >
 
     <TextView
         android:id="@+id/recyclerRowText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Deneme"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#0238A1"
         android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
 
         >
 
